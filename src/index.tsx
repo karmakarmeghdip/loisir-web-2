@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import './index.scss';
 import App from './App';
 import { BrowserRouter as Router } from 'react-router-dom';
 import * as serviceWorkerRegistration from './registerServiceWorker';
@@ -8,9 +8,9 @@ import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-		<Router>
-			<App />
-		</Router>
+    <Router>
+      <App />
+    </Router>
   </React.StrictMode>,
   document.getElementById('react-root')
 );

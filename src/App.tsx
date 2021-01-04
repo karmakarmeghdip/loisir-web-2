@@ -11,11 +11,11 @@ import NotFound from './components/404';
 
 function App() {
   return (
-		<Switch>
-			<Route path="/" exact component={Home} />
-			<Route path="/about" component={About} />
-			<Route component={NotFound}/>
-		</Switch>
+    <Switch>
+      <Route path="/" exact component={Home} />
+      <Route path="/about" component={About} />
+      <Route component={NotFound}/>
+    </Switch>
   );
 }
 
